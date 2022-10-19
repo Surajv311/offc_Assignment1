@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Upload Employee Data</title>
+  </head>
+  <body>
+    <p>
+      Click on upload button to upload the CSV file containing employee data.
+    </p>
+
+    <form action="/post" method="POST">
+      <input type="file" name="file" accept="*.csv" />
+      <br /><br />
+      <input type="submit" value="upload csv" />
+    </form>
+  </body>
+</html>

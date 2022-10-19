@@ -1,0 +1,14 @@
+GET http://localhost:3000/organisations?page=0&size=5 
+# to show the list of organisations 
+# and their employee details paginated.
+
+POST http://localhost:3000/organisations/ 
+# create organisations in the db 
+
+POST http://localhost:3000/organisations/{orgId}/members/upload
+# POST API to upload a CSV file containing employees of the 
+# organisation. This CSV file need not be stored but the 
+# employee data should be extracted, validated and stored 
+# in the database for further operations. 
+# The CSV uploader must be repeatable and 
+# should not cause duplicates (based on Employee ID). 
