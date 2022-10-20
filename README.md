@@ -4,8 +4,8 @@
 - Folder structure: 
 
 ```
+│   .env
 │   .gitignore
-│   data.csv
 │   package-lock.json
 │   package.json
 │   README.md
@@ -26,6 +26,7 @@
         getOrganisation.js
         postCsvData.js
         postOrganisation.js
+
 
 
 ```
